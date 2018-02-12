@@ -119,7 +119,7 @@ a:hover {
 }
 
 .expertise {
-    height: 500px;
+    height: 700px;
     padding-top: 100px;
     text-align: center;
     font-family: 'Arial Rounded MT';
@@ -135,31 +135,144 @@ a:hover {
 }
 
 .expertise img {
-    padding-left:130px;
-    padding-right:130px;
+    padding-left:80px;
+    padding-right:80px;
 }
 .icons-description {
+    padding-top:50px;
     display: inline-block;
-    width: 300px;
+    width:500px;
     font-size: 18px;
     line-height: 32px;
     font-weight: 300;
     color: #464646;
     font-family: Calibri;
+    text-align:center;
 }
 
-p[id="4"] {
+p[id="4"] strong{
+    color:#515151;
+    font-size:18px;
+}
+
+.clients-belt {
+    width: 100%;
+    position: relative;
+}
+
+.client-unit {
+    max-width: 750px;
+    margin: 0 auto 50px;
+    display: flex;
+}
+
+.client-face {
+    min-width: 300px;
+    text-align: center;
+}
+
+.client-name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.client-title {
+    font-style: normal;
+    font-size: 12px;
+    color: #999;
+}
+
+.client-content {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #464646;
+    font-family: Calibri;
+    margin-top: -20px;
+}
+
+.client-face img {
+    max-width: 200px;
+    padding-bottom: 20px;
+}
+
+.clients-logos {
+    position: relative;
+    max-width: 750px;
+    margin: 0 auto 100px;
+    display: flex;
+    align-items: center;
+}
+
+.client-logo {
+    background-size: contain;
+    background-position: center;
+}
+
+h3 {
+    text-align: center;
+    color: #e1c184;
+    text-transform:uppercase;
+    font-family: 'Arial Rounded MT';
+}
+
+.work {
+    background: #e9e9e9;
+    text-align: center;
+    font-family: 'Arial Rounded MT';
+    padding-top: 50px;
+    height:550px;
+}
+
+.work strong {
+    font-size:40px;
+}
+
+.work p[id="a"] {
+    color:#808080;
+}
+
+.Visit {
+    padding-top: 140px;
+    font-size: 20px;
+    font-family: 'Arial Rounded MT';
+    text-align: center;
+    position: relative;
+    top: -70px;
+    left: -220px;
+}
+
+.Visit span {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border: #e9ab00 solid 2px;
+    border-radius: 10px;
+    color: #1f2024;
+}
+
+.work p[id="b"] {
+    font-size:14px;
+    padding-top:70px;
+    color:#999;
+    width:300px;
     position:relative;
-    left:-320px;
+    left:50px;
 }
 
-p[id="5"] {
-    position: relative;
-    top: -179px;
+.work p[id="ball"] {
+    color: #e1c184;
+}
+.work img {
+    position:relative;
+    top:-400px;
+    right:-230px;
 }
 
-p[id="6"] {
-    position: relative;
-    top: -357px;
-    left: 320px;
+.asd {
+    padding-top:70px;
+    height:700px;
 }
